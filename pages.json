@@ -1,0 +1,291 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue",
+		"^sk-(.*)": "@/components/skeleton-ui/components/$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// #ifdef H5
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "台球陪练",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// #endif 
+		// #ifndef H5
+		{
+			"path": "pages/index/index",
+			"enablePullDownRefresh": true,
+			"style": {
+				"navigationBarTitleText": "台球陪练",
+				"app-plus": {
+					"titleNView": true
+				}
+			}
+		},
+		// #endif 
+		// #ifdef H5
+		{
+			"path": "pages/index/qiuting",
+			"style": {
+				"navigationBarTitleText": "台球门店",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// #endif 
+		// #ifndef H5
+		{
+			"path": "pages/index/qiuting",
+			"enablePullDownRefresh": true,
+			"style": {
+				"navigationBarTitleText": "台球门店",
+				"app-plus": {
+					"titleNView": true
+				}
+			}
+		},
+		// #endif 
+		{
+			"path": "pages/index/search/index",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"app-plus": {
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/index/order/gameList",
+			"style": {
+				"navigationBarTitleText": "游戏列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/order/order",
+			"style": {
+				"navigationBarTitleText": "项目详情"
+			}
+		},
+		{
+			"path": "pages/index/order/orderDetail",
+			"style": {
+				"navigationBarTitleText": "助教详情"
+			}
+		},
+		{
+			"path": "pages/index/order/consortiaDetail",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/index/order/orderDet",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		{
+			"path": "pages/index/order/lowTaking",
+			"style": {
+				"navigationBarTitleText": "乐享低价",
+				"enablePullDownRefresh": true
+			}
+		},
+		// #ifdef H5
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#05C25C",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// #endif
+		// #ifndef H5
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#05C25C",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		// #endif
+		// #ifdef H5
+		{
+			"path": "pages/public/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// #endif
+		// #ifndef H5
+		{
+			"path": "pages/public/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		// #endif
+		{
+			"path": "pages/public/loginphone",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/public/loginmsg",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/public/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		// #ifdef H5
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// #endif
+		// #ifndef H5
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		// #endif
+		// #ifdef H5
+		{
+			"path": "pages/therapist/therapist",
+			"style": {
+				"navigationBarTitleText": "助教",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		// #endif
+		// #ifndef H5
+		{
+			"path": "pages/therapist/therapist",
+			"style": {
+				"navigationBarTitleText": "助教",
+				"enablePullDownRefresh": true
+			}
+		},
+		// #endif
+		{
+			"path": "pages/therapist/therapistList",
+			"style": {
+				"navigationBarTitleText": "选择助教",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/therapist/orderDetail",
+			"style": {
+				"navigationBarTitleText": "助教详情"
+			}
+		}
+	],
+	"subPackages": [{
+		"root": "my",
+		"pages": [
+			{
+				"path": "address/address",
+				"style": {
+					"navigationBarTitleText": "地址管理",
+					"enablePullDownRefresh": true
+				}
+			},
+			{
+				"path": "address/Endaddress",
+				"style": {
+					"navigationBarTitleText": "添加地址",
+					"enablePullDownRefresh": true
+				}
+			},
+			{
+				"path": "renzheng/index",
+				"style": {
+					"navigationBarTitleText": "月嫂认证"
+				}
+			},
+			{
+				"path": "order/pay",
+				"style": {
+					"navigationBarTitleText": "订单详情"
+				}
+			}
+		]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "台球陪练",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#ffffff"
+	},
+	"tabBar": {
+		"color": "#CCCCCC",
+		"selectedColor": "#2FB57A",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/index.png",
+				"selectedIconPath": "static/tabbar/index_.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/therapist/therapist",
+				"iconPath": "static/tabbar/therapist.png",
+				"selectedIconPath": "static/tabbar/therapist_.png",
+				"text": "助教"
+			},
+			{
+				"pagePath": "pages/index/qiuting",
+				"iconPath": "static/tabbar/dating.png",
+				"selectedIconPath": "static/tabbar/dating_.png",
+				"text": "球厅"
+			},
+			{
+				"pagePath": "pages/order/index",
+				"iconPath": "static/tabbar/order.png",
+				"selectedIconPath": "static/tabbar/order_.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/my_.png",
+				"text": "我的"
+			}
+		]
+	}
+}
