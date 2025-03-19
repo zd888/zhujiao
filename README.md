@@ -9,10 +9,9 @@
 轮播，教练列表、教练详情、下单、助教地址、预约助教、台球厅、我的订单、门店订单、登录等功能。
 
 ## 在线体验
-### [https://taiqiuzj.xianmaxiong.com](https://taiqiuzj.xianmaxiong.com)
+### [http://xiangdao.unvue.cn](http://xiangdao.unvue.cn)
 
 ## 联系作者
-### <img src="https://shop.szsqx.cn/images/qrcode.jpg" width="300" height="300">
+### <img src="https://www.unvue.cn/images/qrcode_weixin.jpg" width="300" height="300">
 
-### 公司官网：[https://www.szsqx.cn](https://www.szsqx.cn)
-### 产品介绍：[https://shop.szsqx.cn](https://shop.szsqx.cn)
+### 公司官网：[https://www.unvue.cn](https://www.unvue.cn)
